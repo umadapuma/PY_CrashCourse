@@ -1,3 +1,5 @@
+
+'''
 #8-9 Magicians 
 from hashlib import new
 
@@ -26,3 +28,21 @@ print('-------------------------------------')
 #8-11 Unchanged Magicians:
 show_magicians(magicians)
 show_magicians(great_magicians2)
+'''
+#Problems from Physical Book
+#8-9 Messages:
+messages = ['Howdy','Having a good day?', 'Why I outta!']
+sent_messages = []
+def show_messages(messages):
+    for message in messages:
+        print(message)
+
+#show_messages(messages)
+
+#8-10 Sending Messages:
+def send_messages(messages):
+    while messages:
+        current_message = messages.pop()
+        sent_messages.append(current_message)
+        
+send_messages(messages)

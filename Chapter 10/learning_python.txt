@@ -1,0 +1,3 @@
+In Python you can items in list.
+In Python you can create files that can imported into other files.
+In Python you can create dictionaries that hold any form of data as long as it can be referred to by a key.

@@ -1,0 +1,11 @@
+We're creating a web app called Pizzeria that holds different pizzas and the toppings that go on them.
+
+python -m venv ll_env
+ll_env\Scripts\activate (cmd only) 
+deactivate (to deactivate)
+pip install django
+django-admin startproject pizzeria . //install django and . organizes it
+python manage.py migrate //make database
+python manage.py runserver
+python manage.py startapp pizza
+dir
